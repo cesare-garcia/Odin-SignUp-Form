@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.company-logo {
+    background-color: black;
+    opacity: 0.2;
+}
