@@ -1,6 +1,5 @@
 body {
-    height: 100vh;
-}
+    height: 100vh;}
 
 .main-container {
     height: 100vh;
@@ -35,7 +34,7 @@ fieldset {
     display: flex;
 }
 
-.left-from {
+.left-form {
     display: flex;
     flex-direction: column;
 }
@@ -45,13 +44,17 @@ fieldset {
     flex-direction: column;
 }
 
+input {
+    border-color: #E5E7EB;
+}
+
 .input-container {
     display: flex;
     flex-direction: column;
 }
 
 #submit {
-    background-color: darkolivegreen;
+    background-color: #596D48;
     color: white;
     border-radius: 3px;
     border: none;
