@@ -31,13 +31,13 @@ form {
     background-color: white;
 }
 
+fieldset {
+    display: flex;
+}
+
 .left-from {
     display: flex;
     flex-direction: column;
-}
-
-fieldset {
-    display: flex;
 }
 
 .right-form {
