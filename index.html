@@ -10,7 +10,10 @@
 <body>
     <div class="main-container">
         <div class="left-side">
-            <div class="logo-bar"></div>
+            <div class="logo-bar">
+                <img src="odin-lined.png" alt="odin-logo">
+                <p>Odin</p>
+            </div>
         </div>
         <div class="right-side">
             <div class="text">
@@ -24,15 +27,37 @@
             <form action="">
                 <fieldset>
                     <h3>Let's do this!</h3>
-                    <label for="first-name">First Name</label><input type="text" id="first-name">
-                    <label for="email">Email<input type="email" id="email"></label>
-                    <label for="pw">Password<input type="password" id="pw"></label>
-                    <label for="last-name">Last Name<input type="text" id="last-name"></label>
-                    <label for="phone">Phone Number<input type="tel" id="phone"></label>
-                    <label for="confirm-pw">Confirm Password<input type="text" id="confirm-pw"></label>
+                    <div class="left-form">
+                        <div class="input-container">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name">
+                        </div>
+                        <div class="input-container">
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="input-container">
+                            <label for="pw">Password</label>
+                            <input type="password" id="pw">
+                        </div>
+                    </div>
+                    <div class="right-form">
+                        <div class="input-container">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name">
+                        </div>
+                        <div class="input-container">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="input-container">
+                            <label for="confirm-pw">Confirm Password</label>
+                            <input type="text" id="confirm-pw">
+                        </div>
+                    </div>
                 </fieldset>
             </form>
-            <button type="submit">Create Account</button>
+            <button type="submit" id="submit">Create Account</button>
             <p>Already have an account? <a href="https://www.youtube.com/">Log in</a></p>
         </div>
     </div> 
