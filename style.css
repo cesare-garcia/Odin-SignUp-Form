@@ -2,12 +2,17 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
     color: #596D48;
     font-weight: 600;
+}
+
+h1 {
+    font-family: sans-serif;
 }
 
 .main-container {
@@ -29,7 +34,7 @@ a {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 310px;
+    top: 272px;
     padding: 15px;
 }
 
@@ -54,24 +59,29 @@ a {
     font-size: 31px;
     font-family: sans-serif;
     position: relative;
-    top: 200px;
+    top: 170px;
     left: 60px;
 }
 
 form {
     background-color: white;
     position: relative;
-    top: 265px;
-    height: 399px;
+    top: 220px;
+    height: 377px;
 }
 
 fieldset {
     display: flex;
+    flex-direction: column;
     height: inherit;
     gap: 35px;
     padding: 0;
     border: none;
     box-shadow: 10px 5px 5px rgb(195, 195, 195);
+}
+
+.lower-form {
+    display: flex;
 }
 
 .left-form {
@@ -108,14 +118,18 @@ input {
     font-weight: 600;
     font-size: 20px;
     position: relative;
-    top: 311px;
+    top: 261px;
     left: 63px;
 }
 
 .last {
     position: relative;
-    top: 330px;
+    top: 275px;
     left: 63px;
     font-size: 22px;
     font-family: sans-serif;
+}
+
+:focus {
+    background-color: blue;
 }
