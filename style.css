@@ -1,10 +1,13 @@
 body {
     height: 100vh;
+    width: 100vw;
     margin: 0;
 }
 
 a {
     text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
 }
 
 .main-container {
@@ -14,23 +17,24 @@ a {
 
 .left-side {
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
-    min-width: 710px;
+    min-width: 775px;
     flex-shrink: 0;
     flex-grow: 0;
 }
 
 .logo-bar {
     background-color: black;
+    height: 170px;
     opacity: 50%;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 350px;
+    top: 310px;
     padding: 15px;
 }
 
 .odin {
-    width: 25%;
+    width: 17%;
     height: auto;
 }
 
@@ -41,33 +45,31 @@ a {
 
 .right-side {
     background-color: rgb(250, 251, 253);
-    min-width: 1000px;
     flex-shrink: 0;
     flex-grow: 1;
 }
 
 .text {
     font-weight: 800;
-    font-size: 32px;
+    font-size: 31px;
     font-family: sans-serif;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
     position: relative;
     top: 200px;
+    left: 60px;
 }
 
 form {
     background-color: white;
     position: relative;
-    top: 300px;
+    top: 265px;
+    height: 399px;
 }
 
 fieldset {
     display: flex;
+    height: inherit;
     gap: 35px;
-    padding-bottom: 25px;
-    padding-left: 45px;
+    padding: 0;
     border: none;
     box-shadow: 10px 5px 5px rgb(195, 195, 195);
 }
@@ -106,11 +108,14 @@ input {
     font-weight: 600;
     font-size: 20px;
     position: relative;
-    top: 400px;
-    left: 62px;
+    top: 311px;
+    left: 63px;
 }
 
 .last {
     position: relative;
-    top: 400px;
+    top: 330px;
+    left: 63px;
+    font-size: 22px;
+    font-family: sans-serif;
 }
