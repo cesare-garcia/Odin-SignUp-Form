@@ -1,5 +1,11 @@
 body {
-    height: 100vh;}
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
 
 .main-container {
     height: 100vh;
@@ -8,44 +14,81 @@ body {
 
 .left-side {
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    min-width: 710px;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .logo-bar {
     background-color: black;
     opacity: 50%;
     display: flex;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+    padding: 15px;
+}
+
+.odin {
+    width: 25%;
+    height: auto;
+}
+
+.logo-text {
+    color: #E5E7EB;
+    font-size: 72px;
 }
 
 .right-side {
-    background-color: rgb(225, 224, 224);
+    background-color: rgb(250, 251, 253);
+    min-width: 1000px;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .text {
     font-weight: 800;
-    font-size: 26px;
+    font-size: 32px;
     font-family: sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 200px;
 }
 
 form {
     background-color: white;
+    position: relative;
+    top: 300px;
 }
 
 fieldset {
     display: flex;
+    gap: 35px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    border: none;
+    box-shadow: 10px 5px 5px rgb(195, 195, 195);
 }
 
 .left-form {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .right-form {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 input {
     border-color: #E5E7EB;
+    width: 250px;
+    height: 25px;
+    border-radius: 3px;
 }
 
 .input-container {
@@ -56,9 +99,18 @@ input {
 #submit {
     background-color: #596D48;
     color: white;
-    border-radius: 3px;
+    border-radius: 10px;
     border: none;
-    height: 40px;
-    width: 200px;
+    height: 68px;
+    width: 313px;
     font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: 400px;
+    left: 62px;
+}
+
+.last {
+    position: relative;
+    top: 400px;
 }
