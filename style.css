@@ -6,6 +6,11 @@ body {
     overflow-x: hidden;
 }
 
+@font-face {
+    font-family: myNorse;
+    src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+}
+
 a {
     text-decoration: none;
     color: #596D48;
@@ -47,7 +52,10 @@ h1 {
 
 .logo-text {
     color: #E5E7EB;
-    font-size: 72px;
+    font-size: 172px;
+    font-family: myNorse;
+    position: relative;
+    bottom: 140px;
 }
 
 .right-side {
