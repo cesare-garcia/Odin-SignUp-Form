@@ -37,11 +37,11 @@
                             </div>
                             <div class="input-container">
                                 <label for="email" style="font-family: sans-serif; color: rgb(88, 87, 87); font-weight: bold; letter-spacing: 2px;">EMAIL</label>
-                                <input type="email" id="email">
+                                <input type="email" id="email" pattern="^[A-Za-z0-9]*@[A-Za-z0-9]*.com">
                             </div>
                             <div class="input-container">
                                 <label for="pw" style="font-family: sans-serif; color: rgb(88, 87, 87); font-weight: bold; letter-spacing: 2px;">PASSWORD</label>
-                                <input type="password" id="pw">
+                                <input type="password" id="pw" minlength="6" maxlength="12">
                             </div>
                         </div>
                         <div class="right-form">
@@ -51,11 +51,11 @@
                             </div>
                             <div class="input-container">
                                 <label for="phone" style="font-family: sans-serif; color: rgb(88, 87, 87); font-weight: bold; letter-spacing: 2px;">PHONE NUMBER</label>
-                                <input type="tel" id="phone">
+                                <input type="tel" id="phone" pattern="^[0-9]{10}">
                             </div>
                             <div class="input-container">
                                 <label for="confirm-pw" style="font-family: sans-serif; color: rgb(88, 87, 87); font-weight: bold; letter-spacing: 2px;">CONFIRM PASSWORD</label>
-                                <input type="text" id="confirm-pw">
+                                <input type="password" id="confirm-pw" minlength="6" maxlength="12">
                             </div>
                         </div>
                     </div>
