@@ -2,7 +2,8 @@ body {
     height: 1530px;
     width: 100vw;
     margin: 0;
-    /* overflow-x: hidden; */
+    margin-right: 0px;
+    overflow-x: hidden;
 }
 
 a {
@@ -52,6 +53,7 @@ h1 {
 
 .right-side {
     background-color: rgb(250, 251, 253);
+    width: 1575px;
     flex-shrink: 0;
     flex-grow: 1;
 }
@@ -62,7 +64,7 @@ h1 {
     font-family: sans-serif;
     position: relative;
     top: 215px;
-    left: 60px;
+    left: 70px;
 }
 
 form {
@@ -81,8 +83,15 @@ fieldset {
     box-shadow: 10px 5px 5px rgb(195, 195, 195);
 }
 
+.title-message {
+    position: relative;
+    left: 70px;
+}
+
 .lower-form {
     display: flex;
+    position: relative;
+    left: 70px;
 }
 
 .left-form {
@@ -99,8 +108,8 @@ fieldset {
 
 input {
     border-color: #E5E7EB;
-    width: 250px;
-    height: 25px;
+    width: 385px;
+    height: 45px;
     border-radius: 3px;
 }
 
@@ -130,8 +139,4 @@ input {
     font-size: 27px;
     font-family: sans-serif;
     margin: 0;
-}
-
-:focus {
-    background-color: blue;
 }
