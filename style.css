@@ -80,7 +80,7 @@ fieldset {
     height: inherit;
     padding: 0;
     border: none;
-    box-shadow: 10px 5px 5px rgb(195, 195, 195);
+    box-shadow: 2px 5px 5px rgb(195, 195, 195);
 }
 
 .title-message {
@@ -113,9 +113,17 @@ fieldset {
 
 input {
     border-color: #E5E7EB;
+    border-style: solid;
     width: 385px;
     height: 41px;
-    border-radius: 3px;
+    border-radius: 5px;
+    
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 2px 2px 2px 2px darkgrey;
 }
 
 .input-container {
