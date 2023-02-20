@@ -1,8 +1,8 @@
 body {
-    height: 100vh;
+    height: 1530px;
     width: 100vw;
     margin: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 a {
@@ -16,17 +16,17 @@ h1 {
 }
 
 .main-container {
-    height: 100vh;
     display: flex;
+    height: inherit;
 }
 
 .left-side {
-    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(halie-west-25xggax4bSA-unsplash2.jpg);
     background-repeat: no-repeat;
-    background-size: 775px 1350px;
-    min-width: 775px;
+    background-size: 800px 1530px;
+    min-width: 800px;
+    height: inherit;
     flex-shrink: 0;
-    flex-grow: 0;
 }
 
 .logo-bar {
@@ -36,7 +36,6 @@ h1 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 272px;
     padding: 15px;
 }
 
@@ -53,30 +52,28 @@ h1 {
 .right-side {
     background-color: rgb(250, 251, 253);
     flex-shrink: 0;
-    flex-grow: 1;
 }
 
 .text {
     font-weight: 800;
-    font-size: 31px;
+    font-size: 36px;
     font-family: sans-serif;
     position: relative;
-    top: 170px;
+    top: 215px;
     left: 60px;
 }
 
 form {
     background-color: white;
     position: relative;
-    top: 220px;
-    height: 377px;
+    top: 280px;
+    height: 450px;
 }
 
 fieldset {
     display: flex;
     flex-direction: column;
     height: inherit;
-    gap: 35px;
     padding: 0;
     border: none;
     box-shadow: 10px 5px 5px rgb(195, 195, 195);
@@ -120,16 +117,17 @@ input {
     font-weight: 600;
     font-size: 20px;
     position: relative;
-    top: 261px;
+    top: 330px;
     left: 63px;
 }
 
 .last {
     position: relative;
-    top: 275px;
+    top: 400px;
     left: 63px;
     font-size: 22px;
     font-family: sans-serif;
+    margin: 0;
 }
 
 :focus {
