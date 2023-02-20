@@ -31,11 +31,12 @@ h1 {
 
 .logo-bar {
     background-color: black;
-    height: 170px;
+    height: 190px;
     opacity: 50%;
     display: flex;
     justify-content: center;
     position: relative;
+    top: 335px;
     padding: 15px;
 }
 
@@ -52,6 +53,7 @@ h1 {
 .right-side {
     background-color: rgb(250, 251, 253);
     flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .text {
@@ -112,20 +114,20 @@ input {
     color: white;
     border-radius: 10px;
     border: none;
-    height: 68px;
-    width: 313px;
+    height: 76px;
+    width: 350px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     position: relative;
     top: 330px;
-    left: 63px;
+    left: 70px;
 }
 
 .last {
     position: relative;
-    top: 400px;
+    top: 380px;
     left: 63px;
-    font-size: 22px;
+    font-size: 27px;
     font-family: sans-serif;
     margin: 0;
 }
