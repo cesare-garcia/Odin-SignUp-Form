@@ -97,19 +97,24 @@ fieldset {
 .left-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 42px;
+    position: relative;
+    top: 35px;
 }
 
 .right-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 42px;
+    position: relative;
+    top: 35px;
+    left: 110px;
 }
 
 input {
     border-color: #E5E7EB;
     width: 385px;
-    height: 45px;
+    height: 41px;
     border-radius: 3px;
 }
 
