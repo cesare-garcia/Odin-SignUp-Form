@@ -1,177 +1,176 @@
 body {
-    height: 1530px;
-    width: 100vw;
-    margin: 0;
-    margin-right: 0px;
-    overflow-x: hidden;
+  height: 1530px;
+  width: 100vw;
+  margin: 0;
+  margin-right: 0px;
+  overflow-x: hidden;
 }
 
 @font-face {
-    font-family: myNorse;
-    src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+  font-family: myNorse;
+  src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
 }
 
 a {
-    text-decoration: none;
-    color: #596D48;
-    font-weight: 600;
+  text-decoration: none;
+  color: #596d48;
+  font-weight: 600;
 }
 
 h1 {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .main-container {
-    display: flex;
-    height: inherit;
+  display: flex;
+  height: inherit;
 }
 
 .left-side {
-    background-image: url(halie-west-25xggax4bSA-unsplash2.jpg);
-    background-repeat: no-repeat;
-    background-size: 800px 1530px;
-    min-width: 800px;
-    height: inherit;
-    flex-shrink: 0;
+  background-image: url(halie-west-25xggax4bSA-unsplash2.jpg);
+  background-repeat: no-repeat;
+  background-size: 800px 1530px;
+  min-width: 800px;
+  height: inherit;
+  flex-shrink: 0;
 }
 
 .logo-bar {
-    background-color: rgba(0, 0, 0, 0.536);
-    height: 190px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 335px;
-    padding: 15px;
+  background-color: rgba(0, 0, 0, 0.536);
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 335px;
+  padding: 15px;
 }
 
 .odin {
-    width: 17%;
-    height: auto;
+  width: 17%;
+  height: auto;
 }
 
 .logo-text {
-    color: #E5E7EB;
-    font-size: 172px;
-    font-family: myNorse;
-    position: relative;
-    bottom: 140px;
+  color: #e5e7eb;
+  font-size: 172px;
+  font-family: myNorse;
+  position: relative;
+  bottom: 140px;
 }
 
 .right-side {
-    background-color: rgb(250, 251, 253);
-    width: 1575px;
-    flex-shrink: 0;
-    flex-grow: 1;
+  background-color: rgb(250, 251, 253);
+  width: 1575px;
+  flex-shrink: 0;
+  flex-grow: 1;
 }
 
 .text {
-    font-weight: 800;
-    font-size: 36px;
-    font-family: sans-serif;
-    position: relative;
-    top: 215px;
-    left: 70px;
+  font-weight: 800;
+  font-size: 36px;
+  font-family: sans-serif;
+  position: relative;
+  top: 215px;
+  left: 70px;
 }
 
 form {
-    background-color: white;
-    position: relative;
-    top: 280px;
-    height: 450px;
+  background-color: white;
+  position: relative;
+  top: 280px;
+  height: 450px;
 }
 
 fieldset {
-    display: flex;
-    flex-direction: column;
-    height: inherit;
-    padding: 0;
-    border: none;
-    box-shadow: 2px 5px 5px rgb(195, 195, 195);
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  padding: 0;
+  border: none;
+  box-shadow: 2px 5px 5px rgb(195, 195, 195);
 }
 
 .title-message {
-    position: relative;
-    left: 70px;
+  position: relative;
+  left: 70px;
 }
 
 .lower-form {
-    display: flex;
-    position: relative;
-    left: 70px;
+  display: flex;
+  position: relative;
+  left: 70px;
 }
 
 .left-form {
-    display: flex;
-    flex-direction: column;
-    gap: 42px;
-    position: relative;
-    top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  position: relative;
+  top: 35px;
 }
 
 .right-form {
-    display: flex;
-    flex-direction: column;
-    gap: 42px;
-    position: relative;
-    top: 35px;
-    left: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  position: relative;
+  top: 35px;
+  left: 110px;
 }
 
 input {
-    border-color: #E5E7EB;
-    border-style: solid;
-    width: 385px;
-    height: 41px;
-    border-radius: 5px;
-    
+  border-color: #e5e7eb;
+  border-style: solid;
+  width: 385px;
+  height: 41px;
+  border-radius: 5px;
 }
 
 input:focus {
-    outline: none;
-    border-color: blue;
-    box-shadow: 2px 2px 2px 2px darkgrey;
+  outline: none;
+  border-color: blue;
+  box-shadow: 2px 2px 2px 2px darkgrey;
 }
 
 input:invalid {
-    outline: none;
-    border-color: red;
+  outline: none;
+  border-color: red;
 }
 
 .error {
-    outline: none;
-    border-color: red;
+  outline: none;
+  border-color: red;
 }
 
 .input-container#icpw::after {
-    content: "*Passwords do not match";
-    color: red;
+  content: "*Passwords do not match";
+  color: red;
 }
 
 .input-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #submit {
-    background-color: #596D48;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    height: 76px;
-    width: 350px;
-    font-weight: 600;
-    font-size: 24px;
-    position: relative;
-    top: 330px;
-    left: 70px;
+  background-color: #596d48;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  height: 76px;
+  width: 350px;
+  font-weight: 600;
+  font-size: 24px;
+  position: relative;
+  top: 330px;
+  left: 70px;
 }
 
 .last {
-    position: relative;
-    top: 380px;
-    left: 63px;
-    font-size: 27px;
-    font-family: sans-serif;
-    margin: 0;
+  position: relative;
+  top: 380px;
+  left: 63px;
+  font-size: 27px;
+  font-family: sans-serif;
+  margin: 0;
 }
